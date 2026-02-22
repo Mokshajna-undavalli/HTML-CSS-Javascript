@@ -1,0 +1,13 @@
+<html>
+<body>
+    <label>Type your city:</label><br>
+    <input type="text" oninput="showCity(this)"><br><br>
+    <p id="output"></p>
+    <script>
+        function showCity(element) {
+            let city = element.value;
+            document.getElementById("output").innerText = "You typed: " + city;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<html>
+<body>
+    <label>Enter your name:</label><br>
+    <input type="text" class="user" name="name"><br><br>
+    <button onclick="getName()">Submit</button>
+    <p id="output"></p>
+    <script>
+        function getName() {
+            let name = document.querySelector(".user").value;
+            document.getElementById("output").innerText = "Hello, " + name + "!";
+        }
+    </script>
+</body>
+</html>
