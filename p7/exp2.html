@@ -1,0 +1,24 @@
+<html><head>
+<script language="javascript">
+    function spy(){let input1=document.getElementById("number input1").value;
+        let num1=parseInt(input1);
+        let temp=num1;
+        let sum=0;
+        let product=1;
+        while (temp > 0) {
+    let digit = temp % 10;
+    sum += digit;
+    product *= digit;
+    temp = Math.floor(temp / 10);}
+        if ( sum === product){
+            document.getElementById("result").textContent=" given number is spy number ";}
+    else{
+        document.getElementById("result").textContent="given number is not spy number";}}
+</script></head>
+<body>
+    <h1>spy number checker</h1>
+    <input type="text" id="number input1" placeholder="Enter the number1 value : "><br>
+    <button onclick="spy()">proceed</button>
+    <p id="result"></p>
+</body></html>
+

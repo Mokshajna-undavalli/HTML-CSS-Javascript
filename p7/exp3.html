@@ -1,0 +1,15 @@
+<html><head>
+<script language="javascript">
+    function sum(){ let input=document.getElementById("number input").value;
+        let num=parseInt(input); let org=num;let sum=0;
+        for(sum=0;org!=0;){ let digit=org%10;
+    sum=sum+digit;
+    org=Math.floor(org/10); }
+  document.getElementById("result").textContent="the sum of digits in number: "+sum;}
+</script></head>
+<body>
+    <h1>sum of digits number checker</h1>
+    <input type="text" id="number input" placeholder="Enter the number value : "><br><br>
+    <button onclick="sum()">proceed</button>
+    <p id="result"></p>
+</body></html>
