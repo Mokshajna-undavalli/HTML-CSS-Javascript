@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moksha’s Books Store</title>
+<style>
+    .logo{
+        position: absolute;
+        top: 5px;
+        left: 0;
+        width: 90px;
+        height: auto;
+        border-radius: 100px;
+    } 
+    header { text-align: center;
+         font-size: 20px;
+        font-family: constantia;
+        background-color:rgb(126, 64, 11) ;
+        color: black;
+            padding: 1.5px;
+            margin-bottom: 10px;
+        }
+     h1{
+        text-align: center;
+        font-size: 45px;
+        font-family: constantia;
+        background-color:rgb(130, 66, 11) ;
+        color: black;
+        border-radius: 5px;
+    }
+    body{
+        background-image:url('https://cdn.wallpapersafari.com/22/70/oZCrvS.jpeg') ;
+        background-repeat: no-repeat;
+        font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-attachment: fixed;
+    }
+    .container{
+        padding: 10px;
+       
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        border-color: black;
+        border-radius: 10px;
+        
+    }
+    .pcontainer{
+        padding: 10px;
+        color: antiquewhite;
+        background-color: rgba(0, 0, 0,0.2);
+         justify-content: center;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        border-color: black;
+        border-radius: 10px;
+        
+    }
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: center;
+        margin-top: 10px;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 3%;
+        gap:3%;
+
+    }
+    .box{
+            background-color: rgba(255, 255, 255,1);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+           
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .box img {
+         height: auto;
+            width: 80%;
+            border-radius: 10px;
+        }
+        .box p {
+            margin: 15px;
+            font-size: 16px;
+            color: #555;
+        }
+        #search {
+            font-size:20px;
+            padding: 10px 300px;
+            border-radius: 10px;
+            border-collapse:1px ;
+            margin-left: 300px;
+            
+            margin-top: 20px;
+        }
+        button{
+        cursor: pointer;
+        color: black;
+        
+        justify-content: center;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-right: 15px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .sign{position: absolute; 
+        background-color:rgb(148, 94, 94);
+        color: black;
+        padding: 5px 15px;
+        position: absolute;top: 30px;right: 10px;
+    }
+    .p1{margin: 20px;
+        margin-bottom: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(15, 15, 15);}
+    .p2{margin: 20px;
+        margin-bottom: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(252, 249, 249);}
+    p{margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+    text-align: center;
+    font-size: 25px;}
+    @media (max-width: 768px) {
+            header {
+                font-size: 30px;
+                padding: 15px;
+            }
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+        .sign{
+            top: 3.5%;
+            right: 0;
+        }
+        #search{
+            left: 0;
+        }
+</style>
+<head>
+    <header>
+       <h1>Moksha's Book Store</h1>
+       <img class="logo" src="logo.webp" >
+       <a href="sign2.html"><button class="sign">sign in</button></a>  <br>
+       <div style=" position: absolute;top: 100px;right: 30px;gap:30px;">
+       <a href="page1.html" style="color:black;margin-right: 20px;">Fiction</a>
+       <a href="page2.html" style="color:black;margin-right: 20px;">Non-Fiction</a>
+       <a href="page3.html" style="color:black;margin-right: 20px;">Spiritual</a>
+       <a href="page4.html" style="color:black;margin-right: 20px;">Best-Selling</a>
+      </div>
+   </header> 
+</head>
+     <body>
+        <div class="container1" style="margin-bottom: 30px;">
+            
+<input type="text" id="search" placeholder="Search products...&#128269">
+        </div>
+    
+        <div class="container">
+            <p class="p2"><b><u>Welcome to Moksha book store</u></b></p>
+                <hr style="color: #555;width: 75%;">
+            <p style="color: white;"> " More than just a bookstore, we are a community space where literature, culture, and creativity come alive. Our carefully curated collection spans across genres—fiction, non-fiction, poetry, self-help, spirituality, and rare classics—ensuring there’s something for every reader."
+             </p>
+        </div>
+<hr>
+        <p class="p2"><b><u>Different categories of Books</u></b></p>
+        <div class="container2">
+            <div class="box">
+                <img src="C:\Users\mokshajna\OneDrive\Desktop\html\p6\home2.jpg">
+                <p style="font-size: 20px;"><strong>Fictional:</strong> <br>Fictional books are imaginative stories created by authors, featuring made-up characters, settings, and events. They span various genres, including fantasy, science fiction, mystery, romance, and historical fiction, each offering unique narratives that transport readers to different worlds. From magical adventures in Harry Potter to dystopian warnings in 1984, fiction allows readers to explore emotions, ideas, and experiences beyond reality. These books entertain, inspire, and sometimes even challenge societal norms, making them a vital part of literature. Whether it’s a thrilling mystery, a heartwarming romance, or an epic fantasy, fictional books provide endless possibilities for storytelling and imagination.</p>
+            </div>
+            <div class="box">
+                <img  src="C:\Users\mokshajna\OneDrive\Desktop\html\p6\home1.jpg">
+                <p style="font-size: 20px;"><strong>Non-Fictional:</strong><br>Non-fictional books are based on real events, facts, and true accounts, offering knowledge, insights, and real-life experiences. They cover a wide range of genres, including biographies (*The Diary of a Young Girl* by Anne Frank), self-help (*Atomic Habits* by James Clear), history (*Sapiens* by Yuval Noah Harari), science (*A Brief History of Time* by Stephen Hawking), and business (*Rich Dad Poor Dad* by Robert Kiyosaki). Unlike fiction, these books educate, inform, and inspire readers by providing factual information, expert opinions, and life lessons. Non-fiction helps expand knowledge, develop skills, and gain a deeper understanding of the world.</p>
+            </div>
+            <div class="box">
+                <img src="C:\Users\mokshajna\OneDrive\Desktop\html\p6\home3.jpg">
+                <p style="font-size: 20px;"><strong>Best-selling:</strong><br>Spiritual books explore the deeper aspects of life, consciousness, and the human connection to the divine or the universe. They offer wisdom, guidance, and inner peace through teachings on mindfulness, meditation, self-discovery, and faith. These books can be religious (*The Bhagavad Gita*, *The Bible*, *The Quran*), philosophical (*The Power of Now* by Eckhart Tolle), or inspirational (*The Seven Spiritual Laws of Success* by Deepak Chopra). They help readers find meaning, cultivate inner peace, and navigate life’s challenges with a higher perspective. Spiritual books encourage self-reflection and personal growth, leading to a more mindful and fulfilling life.</p>
+            </div>
+        </div>
+        <div class="pcontainer">
+         <p class="p2"><b><u>About Us</u></b></p>
+        <p> 
+            At Moksha’s Bookstore, we believe in the power of stories to inspire, educate, and transform lives. More than just a bookstore, we are a haven for book lovers, thinkers, and dreamers. Our carefully curated collection spans across fiction, non-fiction, self-help, spirituality, and rare literary gems, ensuring there’s something for every reader. Whether you're looking for a bestselling novel, a timeless classic, or a book to spark personal growth, you’ll find it here. <br> 
+            Beyond books, we foster a community of readers through engaging events, book clubs, and author meetups. Our cozy reading nooks invite you to relax, explore, and lose yourself in the magic of words. At Moksha’s Bookstore, every book tells a story, and every reader is part of a larger journey of discovery. Visit us and experience the joy of reading in a space that feels like home! 📚✨</p>
+            <div style="text-align: center;">
+                <a href="about.html"><button style="background-color: black;color: blue;">contact us</button></a>
+              </div>
+        </div>
+        </body>
+        <footer style="text-align: center; padding: 10px; background-color: #f1f1f1;font-size: 20px;">
+            <p>&copy; 2025 Moksha’s Bookstore. All rights reserved.</p>
+        </footer>
+        
+</html>
