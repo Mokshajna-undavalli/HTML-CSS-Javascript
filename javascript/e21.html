@@ -1,0 +1,19 @@
+<html><head>
+<script language="javascript">function fact(){
+        let input=document.getElementById("number input").value;
+        let num=parseInt(input);let sum=1;
+        if (num>0){for (let i=1;i<=num;i++){
+               sum=i*sum;}
+            document.getElementById("result").textContent="the fact of number "+sum;}
+    else
+       if(num==0){
+        document.getElementById("result").textContent="the fact of 0 is 1";}
+    else{
+        document.getElementById("result").textContent="Please enter a valid number.";}}
+</script></head>
+<body>
+    <h1>factorial of number</h1>
+    <input type="text" id="number input" placeholder="Enter the number value : "><br><br>
+    <button onclick="fact()">proceed</button>
+    <p id="result"></p>
+</body></html>

@@ -1,0 +1,14 @@
+<html><body>
+<script>
+var number = prompt("Enter a Number:");
+number = parseInt(number);
+function isPrime(num) {
+  if (num <= 1) {
+    return false; }
+  for (let i = 2; i <= Math.sqrt(num); i++) {
+    if (num % i == 0) {
+      return false; } }
+  return true;}
+if (isPrime(number)) { document.write(number + " is a Prime Number.");
+} else {document.write(number + " is not a Prime Number.");}
+</script></body></html>

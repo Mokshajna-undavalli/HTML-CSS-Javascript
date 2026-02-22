@@ -1,0 +1,23 @@
+<html><head>
+<script language="javascript">
+    function arm(){let input=document.getElementById("number input").value;
+        let num=parseInt(input);
+        let org=num;
+      let num1=num;let sum=0;let n=0;
+            for ( n=0;num1!=0;n++){
+             num1=Math.floor(num1/10); }
+        for(sum=0;org!=0;){
+   let digit=org%10;
+    sum=sum+Math.pow(digit,n);
+    org=Math.floor(org/10);}
+ if(sum==num){
+    document.getElementById("result").textContent="the given number is armstromg number.";}
+else{
+    document.getElementById("result").textContent="the given number is not armstromg number.";} }
+</script></head>
+<body>
+    <h1>armstromg of number checker</h1>
+    <input type="text" id="number input" placeholder="Enter the number value : "><br><br>
+    <button onclick="arm()">proceed</button>
+    <p id="result"></p>
+</body></html>
