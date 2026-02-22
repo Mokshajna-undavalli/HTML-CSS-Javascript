@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>MS automobiles-models</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 50px;
+        }
+
+        body {
+            background-color: snow;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .navbar {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color:#00594f;
+            margin-bottom: 20px;
+        }
+
+        .navbar img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: auto;
+        }
+
+        .navbar h2 {
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 50px;
+            font-weight: bold;
+            color:black;
+        }
+
+        .items{
+            display: flex;
+            justify-content: center;
+            gap:50px;}
+
+            .items p{
+            align-items: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            background-color: black;
+            cursor: pointer;
+            transition: all;
+        }
+        .items p:hover{
+            transition-duration: 0.3s;
+            color: black;
+            background-color:white;
+        }
+
+        .container2 {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 70px;
+            justify-content: center;
+            gap: 5%;
+        }
+
+        .box {
+            background-color: rgba(255, 255, 255, 1);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            width: 350px;
+            height: 500px;
+            text-align: center;
+            margin-top: 20px;
+            overflow: hidden;
+            transition: all;
+            margin-bottom: 50px;
+        }
+        .box:hover{
+            transform: scale(1.05);
+        }
+
+        .image-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .image-container img {
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .content {
+            position: absolute;
+            top:10px;
+            width: 100%;
+            color:green;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        .content h{
+            font-size: 18px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .content p{
+            margin-top:330px ;
+            font-size: 14px;
+        }
+        button{
+            position:relative;
+
+            font-size: 15px;
+            padding: 10px 20px ;
+            background-color: rgba(0, 0, 0,0.7);
+            border-radius: 10px;
+            color: white;
+            justify-content: center;
+            cursor: pointer;
+          margin-right: 10px;
+          transition: all;
+        }
+
+        button:hover{
+            background-color: white;
+            color: black;
+            transform: scale(1.1);
+        }
+@media  (max-width: 768px) {
+    .navbar img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50px;
+            height: auto;
+        }
+        .box {
+            background-color: rgba(255, 255, 255, 1);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            width: 350px;
+            height: 550px;
+            text-align: center;
+            margin-top: 20px;
+            overflow: hidden;
+            transition: all;
+            margin-bottom: 50px;
+        }
+
+}
+.items{
+            display: flex;
+            justify-content: center;
+            gap:50px;}
+a{text-decoration:none;font-size:20px}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+       <img src="ms-automobile.jpg">
+        <h2>MS Automobiles</h2>
+        <div class="items">
+            <a href="1-models.html" target="_blank" style="color:black">Porsche</a>
+            <a href="2-models.html" target="_blank" style="color:black">Ferrari</a>
+            <a href="3-models.html" target="_blank" style="color:black">Lamborghini</a>
+            <a href="4-models.html" target="_blank" style="color:black">Bugatti</a>
+            <a href="6-models.html" target="_blank" style="color:black">Koenigsegg</a>
+              </div> 
+    </div>
+
+    <h1>Aston Martin<img src="Aston-Martin-Logo.jpg" height="50px"></h1>
+
+    <div class="container2">
+        <div class="box">
+            <div class="image-container">
+                <img src="as1.JPG">
+                <div class="content"><h>Valhalla</p>
+                
+                   <a href="payment.html"><button>place the order</button></a>
+                   <a href="porscho-custom.html"><button>Customize</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image-container">
+                <img src="as2.WEBP">
+                <div class="content"><h>DBX707</p>
+                    <a href="payment.html"> <button>place the order</button></a>
+                   <a href="porscho-custom.html"><button>Customize</button></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image-container">
+                <img src="vanquish.jpg.avif">
+                <div class="content"><h>Vanquish</p>
+
+                    <a href="payment.html"> <button>place the order</button></a>
+                   <a href="porscho-custom.html"><button>Customize</button></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image-container">
+                <img src="as4.PNG">
+                <div class="content"><h>Vantage</p>
+                   
+                    <a href="payment.html"> <button>place the order</button></a>
+                   <a href="porscho-custom.html"><button>Customize</button></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image-container">
+                <img src="as5.JPG">
+                <div class="content"><h>Valour</p>
+                   
+                    <a href="payment.html"> <button>place the order</button></a>
+                   <a href="porscho-custom.html"><button>Customize</button></a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="box">
+            <div class="image-container">
+                <img src="as6.JPG">
+                <div class="content"><h>Valkyrie</p>
+                   
+                    <a href="payment.html"> <button>place the order</button></a>
+                   <a href="porscho-custom.html"><button>Customize</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="text-align: center">
+        <a href="4-models.html" style="color:black;margin-right:30px;">Previous</a>
+        <a href="6-models.html" style="color:black">Next</a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer style="text-align: center; padding: 20px;color: white;font-size: 20px;background-color: black;">
+        <p>&copy; 2025 MS Automobiles. All rights reserved.</p>
+        <h1 style="font-size: 30px;"><u>Contact us</u></h1>
+        <p>Phone: 1234567890,Location: Autonagar-Vijawada-Andhra Pradesh</p>
+        <p>Any Queries:<br>
+            <a href="mailto:srujan.sunkavalli6@gmail.com">srujan.sunkavalli6@gmail.com</a></p><hr>
+         
+    </footer>
+</body>
+</html>
